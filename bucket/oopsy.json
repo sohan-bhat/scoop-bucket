@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "description": "Undo for rm -rf and everything else you wish you had not run. Snapshots files, git state and Postgres data right before destructive commands, from people or AI coding agents.",
+    "homepage": "https://sohan-bhat.github.io/oopsy/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sohan-bhat/oopsy/releases/download/v0.2.0/oopsy_0.2.0_windows_amd64.zip",
+            "hash": "2a7c3f9f19213d856c2fa2dd7cf5af3bb0d10a65d6c1e92f7d3eb50cb1e556ba"
+        },
+        "arm64": {
+            "url": "https://github.com/sohan-bhat/oopsy/releases/download/v0.2.0/oopsy_0.2.0_windows_arm64.zip",
+            "hash": "887b26c6d24f1dae78a47966a59b5bbfd8bd1d37bacb15bbce8d66834ec7b2c1"
+        }
+    },
+    "bin": [
+        "oops.exe",
+        "oops-db.exe"
+    ],
+    "notes": "Run 'oops init' once to turn on the PowerShell, Git Bash and AI agent hooks.",
+    "checkver": {
+        "github": "https://github.com/sohan-bhat/oopsy"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sohan-bhat/oopsy/releases/download/v$version/oopsy_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/sohan-bhat/oopsy/releases/download/v$version/oopsy_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
