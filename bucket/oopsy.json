@@ -1,16 +1,16 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Undo for rm -rf and everything else you wish you had not run. Snapshots files, git state and Postgres data right before destructive commands, from people or AI coding agents.",
     "homepage": "https://sohan-bhat.github.io/oopsy/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sohan-bhat/oopsy/releases/download/v0.2.0/oopsy_0.2.0_windows_amd64.zip",
-            "hash": "2a7c3f9f19213d856c2fa2dd7cf5af3bb0d10a65d6c1e92f7d3eb50cb1e556ba"
+            "url": "https://github.com/sohan-bhat/oopsy/releases/download/v0.2.1/oopsy_0.2.1_windows_amd64.zip",
+            "hash": "6fcbc04a8e4d9e9776b1936f0e66540ee52912500895f3798b177a7cf8b5e96e"
         },
         "arm64": {
-            "url": "https://github.com/sohan-bhat/oopsy/releases/download/v0.2.0/oopsy_0.2.0_windows_arm64.zip",
-            "hash": "887b26c6d24f1dae78a47966a59b5bbfd8bd1d37bacb15bbce8d66834ec7b2c1"
+            "url": "https://github.com/sohan-bhat/oopsy/releases/download/v0.2.1/oopsy_0.2.1_windows_arm64.zip",
+            "hash": "26e53230f1dc126867389c38171ff3ab0d1452361a4e45c3b9435c3f236aa325"
         }
     },
     "bin": [
